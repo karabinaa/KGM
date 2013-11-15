@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nope{
+	width: 100%
+	}
+
+.btn{
+	float: right;
+	font-size: 9px;
+	color: #D6D6D6;
+	clear: both;
+	width: auto;
+	text-align: center;
+	text-transform: capitalize;
+	vertical-align: middle;
+	display: block;
+}
+
+
+.rightside{
+	float: right;
+	min-height: 100%;
+	width: 20%;
+}
+
+.leftside{
+	margin-top: -25px;
+	float: left;
+	min-height: 100%;
+	width: 65%;
+}
+
+.display{
+	min-height: 60px;
+	background-repeat: no-repeat;
+	margin-left: 25% ;
+	background-image:url(../images/phbg.png);
+
+}

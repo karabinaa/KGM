@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>OMÜ KGM</name>
+<icon src="jquery-mobile/images/icon.png" />
+<description>
+deneme 1-2-3
+</description>
+
+<author href="http://karabinaa.me" email="armagan@karabinaa.me">
+Armağan KARABİNA
+</author>
+
+</widget>

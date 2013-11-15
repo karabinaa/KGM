@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title> OMÜ KGM </title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/includes/style.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/includes/capIm.js" type="text/javascript"></script>
+<script src="jquery-mobile/includes/capaudio.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="json2.js"></script>
+    
+
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>OMÜ KGM </h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#etutanak">e-tutanak</a></li>
+            <li><a href="#page3">Page Three</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>&nbsp;</h4>
+	</div>
+</div>
+
+<div data-role="page" id="etutanak">
+	<div data-role="header">
+		<h1>e-Tutanak</h1>
+	</div>
+	<div data-role="content">
+	  
+    <div class="btn" class="rightside">
+      
+      <div class="display"> <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+    <img style="display:none;" id="largeImage" src="" /></div>
+      
+      <button onclick="capturePhoto();">Resim Çek</button>
+      <button onclick="captureAudio();">Sesli Rapor</button>
+      <button onclick="merhaba()">Merhaba</button>
+      
+  </div>
+    
+    <div class="leftside">
+      <div class="nope" data-role="fieldcontain">
+        <div data-role="collapsible-set">
+          <div data-role="collapsible">
+            <h3>1. Tarafın Bilgileri</h3>
+            <p>Content</p>
+          </div>
+          <div data-role="collapsible" data-collapsed="true">
+            <h3>2. Tarafın Bilgileri</h3>
+            <p>Content</p>
+          </div>
+          <div data-role="collapsible" data-collapsed="true">
+            <h3>Açıklama</h3>
+            <form name="myform">
+                <textarea name="textinput" id="textinput"></textarea>
+            </form> 
+        
+            </div>
+            
+          </div>
+        </div>
+
+      </div>   
+    
+    
+    </div>
+      
+      
+      
+</div>
+    
+    
+	<div data-role="footer">
+		<h6>OMÜ KGM</h6>
+  </div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Page Three</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h6>OMÜ KGM</h6>
+	</div>
+</div>
+
+
+
+</body>
+</html>
